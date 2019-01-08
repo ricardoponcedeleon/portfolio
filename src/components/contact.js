@@ -11,11 +11,12 @@ render() {
         <i className="icon fab fa-phoenix-framework"></i>
          <Button className='app__button'/>
          
+         
             <div className='myname'>
         <h1>R I C A R D O</h1>
         </div>
 
-        
+
         </div>
         </div>
 
