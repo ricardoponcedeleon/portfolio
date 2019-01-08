@@ -21,7 +21,7 @@ class App extends Component {
       </div>
 
       <div className="home">
-        My name is Ricardo Ponce de Leon. I am a react junior developer.
+        Soy Ricardo Ponce de Leon. Soy enginero de react.
       </div>
       </div>
     );
