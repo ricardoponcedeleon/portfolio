@@ -10,11 +10,12 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
+import './style/about.scss';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import history from './history';
 import About from './components/about';
-import Home from './components/home';
+
 
 
 

@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Button from './buttons';
 import NavWrapper from './navwrapper'
-import Home from './home'
-import About from './about'
-import Projects from './projects'
-import Contact from './contact'
 
 class App extends Component {
   render() {
@@ -18,13 +14,15 @@ class App extends Component {
         <h1>R I C A R D O</h1>
         </div>
        </div>
-      
+    
 
       <div className='nav-wrapper'>
         <NavWrapper className='app__wrapper'/>
       </div>
 
-      
+      <div className="home">
+        My name is Ricardo Ponce de Leon. I am a react junior developer.
+      </div>
       </div>
     );
   }

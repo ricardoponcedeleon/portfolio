@@ -1,18 +1,10 @@
+@import 'about';
+
+
 .app {
     background-color: rgb(102, 0, 0);
     transition: 0.5s;
-    height: 940px;
-
-    &:hover {
-        -webkit-box-shadow: 0 8px 6px -6px black;
-        -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
-        -webkit-transition: all 1s ease-out;
-        -moz-transition: all 1s ease-out;
-        -o-transition: all 1s ease-out;
-        -ms-transition: all 1s ease-out;
-        transition: all 1s ease-out;    
-    }
+    height: 938px;  
 }
 
 .header {
@@ -25,16 +17,14 @@
     align-items: center;
     background-color: rgb(102, 0, 0);
     transition: 0.5s;
-
-    &:hover {
-        -webkit-box-shadow: 0 8px 6px -6px black;
-        -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
-        -webkit-transition: all 1s ease-out;
-        -moz-transition: all 1s ease-out;
-        -o-transition: all 1s ease-out;
-        -ms-transition: all 1s ease-out;
-        transition: all 1s ease-out;    }
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;  
 }
 
 .icon {
@@ -83,10 +73,10 @@
 .home {
     background-color: rgb(102, 0, 0);
     color: silver;
-    font-size: 130%;
+    font-size: 160%;
     display: flex;
     justify-content: center; 
-    margin-top: 8%;
+    margin-top: 15%;
 }
 
 .content {
@@ -106,3 +96,15 @@ h1 {
     align-self: center;
  }
 
+.link{
+    &:hover {
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -ms-transition: all 1s ease-out;
+        transition: all 1s ease-out;    
+    }
+}

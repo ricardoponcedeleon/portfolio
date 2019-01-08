@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import Links from './Link';
 
+
+
 class Button extends Component {
 render() {
     const { className } = this.props;
     return (
             <div className={`${ className} button`}>
 
-            <Links to="/index" text="HOME"/>
-            <Links to="/about" text="ABOUT"/>
-            <Links to="/projects" text="PROJECTS"/>
-            <Links to="contact" text="CONTACT"/>
+            <Links className="homeLink" to="/" text="HOME"/>
+            <Links className="aboutLink" to="/about" text="ABOUT"/>
+            <Links className="projectsLink" to="/projects" text="PROJECTS"/>
+            <Links className="contactLink" to="contact" text="CONTACT"/>
             </div>
         
         )
