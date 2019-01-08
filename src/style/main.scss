@@ -17,9 +17,9 @@
     align-items: center;
     background-color: rgb(102, 0, 0);
     transition: 0.5s;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
+    -webkit-box-shadow: 0 8px 6px -6px #212529;
+    -moz-box-shadow: 0 8px 6px -6px #212529;
+    box-shadow: 0 8px 6px -6px #212529;
     -webkit-transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
@@ -36,7 +36,7 @@
 .myname {
     align-self: center;
     font-size: 90px;
-    color: black;
+    color:#212529;
     font-style: oblique;
     display: flex;
  }
@@ -86,9 +86,9 @@
 .button a:hover,
     .button a:active {
     letter-spacing: 3px;
-        -webkit-box-shadow: 0 8px 6px -6px black;
-        -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px #212529;
+        -moz-box-shadow: 0 8px 6px -6px #212529;
+        box-shadow: 0 8px 6px -6px #212529;
         transition: 1s;
     }
 
@@ -98,9 +98,9 @@ h1 {
 
 .link{
     &:hover {
-        -webkit-box-shadow: 0 8px 6px -6px black;
-        -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px #212529;
+        -moz-box-shadow: 0 8px 6px -6px #212529;
+        box-shadow: 0 8px 6px -6px #212529;
         -webkit-transition: all 1s ease-out;
         -moz-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;

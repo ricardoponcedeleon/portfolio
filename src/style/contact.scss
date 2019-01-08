@@ -1,0 +1,18 @@
+.links {
+    width: 100%;
+    height: 140%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iconLink{
+    color:#212529;
+    font-size: 300px;
+    transition: ease all 0.5s;
+    &:hover{
+        color: #BD8621;
+  
+    }
+}

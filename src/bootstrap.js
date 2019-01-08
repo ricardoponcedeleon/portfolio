@@ -11,6 +11,7 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 import './style/about.scss';
+import './style/contact.scss';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import history from './history';

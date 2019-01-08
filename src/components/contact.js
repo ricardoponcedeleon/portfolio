@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Button from './buttons';
 
 
-class Contacts extends Component {
+class contact extends Component {
 render() {
     const { className } = this.props;
     return (
@@ -15,12 +15,27 @@ render() {
         <h1>R I C A R D O</h1>
         </div>
 
+      </div> 
+      <div className='contact'>
+                <h1>CONTACT ME</h1>
+                </div>
+      <div className='links'>
+                <i className="fab fa-instagram iconLink"></i>
+                    <a href=""></a>
 
+                <i className="fab fa-facebook iconLink"></i>
+
+
+                <i className="fab fa-linkedin iconLink"></i>
+                    </div>
+
+            <div>
+                
         </div>
-        </div>
+    </div>
 
         )
     }
 }
 
-export default Contacts;
+export default contact;
